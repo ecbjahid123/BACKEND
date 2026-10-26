@@ -1,0 +1,31 @@
+{
+    "posts": [
+        {
+            "id": "uuid()",
+            "username": "Mohd Jahid",
+            "Image": "image1.png",
+            "likes": 200,
+            "comments": 1000,
+            "share": 500,
+            "content": "This is my first post"
+        },
+        {
+            "id": "uuid()",
+            "username": "Mohd Jahid",
+            "Image": "image2.png",
+            "likes": 200,
+            "comments": 1000,
+            "share": 500,
+            "content": "This is my first post"
+        },
+        {
+            "id": "uuid()",
+            "username": "Mohd Jahid",
+            "Image": "image3.png",
+            "likes": 200,
+            "comments": 1000,
+            "share": 500,
+            "content": "This is my first post"
+        }
+    ]
+}

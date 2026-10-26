@@ -1,0 +1,53 @@
+.allChats{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.chat{
+    background-color: aliceblue;
+    width: 20%; 
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px;
+}
+.msg{
+    background-color: blue ;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-right:15px;
+}
+.createForm{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.createChat{
+    background-color: black;
+    color: white;
+    padding: 8px 28px;
+    border-radius:8px ;
+}
+.updateChat{
+    background-color: white;
+    border-radius:  4px;
+}
+.deleteChat{
+    background-color: rgba(0,0 ,0, 0.5);
+    color: aliceblue;
+}
+.deleteChat:hover{
+    background-color: rgb(201, 45, 55);
+}
+.showChat{
+    background-color: rgba(0,0 ,0, 0.5);
+    color: aliceblue;
+}
+.showChat:hover{
+    background-color: rgb(45, 68, 201);
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}

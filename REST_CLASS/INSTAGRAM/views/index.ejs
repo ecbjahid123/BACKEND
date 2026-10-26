@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Posts</title>
+</head>
+<body>
+    <% for(let post of posts){ %>
+        <h3>@<%= post.username %></h3>
+        <img src="<%= post.Image %>" alt="Post Image">
+        <p>Likes: <%= post.likes %> &nbsp; Comments: <%= post.comments %> &nbsp; Share: <%= post.share %></p>
+    <% } %>
+</body>
+</html>
